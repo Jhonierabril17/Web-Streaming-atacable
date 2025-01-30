@@ -1,0 +1,221 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #121212;
+  }
+  
+  /* Barra de Navegación */
+  header {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #ff6b6b;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  /* Películas Destacadas */
+  .featured {
+    padding: 20px;
+  }
+  
+  .featured h2 {
+    font-size: 24px;
+    color: #ff6b6b;
+  }
+  
+  .movie-grid {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+  }
+  
+  .movie-card {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .movie-card h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  /* Categorías */
+  .categories {
+    padding: 20px;
+  }
+  
+  .categories h2 {
+    font-size: 24px;
+    color: #ff6b6b;
+  }
+  
+  .category-grid {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .category-card {
+    background-color: #333333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /* Pie de Página */
+  footer {
+    background-color: #1f1f1f;
+    padding: 10px;
+    text-align: center;
+    color: #888888;
+  }
+  
+  footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+  }
+
+  /* Estilos para el Contenedor de Inicio de Sesión */
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    color: #ff6b6b;
+    margin-bottom: 20px;
+  }
+  
+  .login-container label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .login-container p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .login-container a {
+    color: #ff6b6b;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el contenedor de registro */
+.register-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .register-container h2 {
+    color: #ff6b6b;
+    margin-bottom: 20px;
+  }
+  
+  .register-container label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .register-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .regresar{
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  
+  

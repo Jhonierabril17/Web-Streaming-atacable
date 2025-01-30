@@ -1,0 +1,148 @@
+/* Estilo general del cuerpo y contenedores */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor de Login */
+.login-contenedor {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 30px;
+    width: 350px;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+/* Título */
+.login-contenedor h2 {
+    color: #bb86fc;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Etiquetas y Campos de Entrada */
+.login-contenedor label {
+    color: #ffffff;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.login-contenedor input[type="text"],
+.login-contenedor input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+/* Botón de Iniciar Sesión */
+.login-contenedor button {
+    background-color: #bb86fc;
+    color: #ffffff;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.login-contenedor button:hover {
+    background-color: #9b66d9;
+}
+
+/* Enlaces de redirección */
+.login-contenedor a {
+    color: #ff79c6;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.login-contenedor a:hover {
+    color: #ff5599;
+}
+
+.admin-dashboard, .usuarios-container {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: auto;
+}
+
+/* Estilos para los botones */
+button, .logout-button, .update-button, .delete-button {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Botón de Actualizar */
+.update-button {
+    background-color: #bb86fc;
+}
+
+.update-button:hover {
+    background-color: #9b66d9;
+}
+
+/* Botón de Eliminar */
+.delete-button {
+    background-color: #f44336; /* Rojo para indicar una acción de eliminación */
+}
+
+.delete-button:hover {
+    background-color: #d32f2f; /* Rojo más oscuro al pasar el mouse */
+}
+
+/* Botón de Cerrar Sesión */
+.logout-button {
+    background-color: #bb86fc;
+}
+
+.logout-button:hover {
+    background-color: #9b66d9;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+}
+
